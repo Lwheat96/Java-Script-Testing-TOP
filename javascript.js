@@ -11,11 +11,14 @@
 
         console.log(multiply(4))
 
-        function capitalize(str) {
-            
+        function capitalize(string) {
+           return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
         }
 
+        console.log(capitalize("upppppperCCase"))
         
-        function lastletter() {
-            
+        function lastletter(str) {
+            return str.charAt(str.length - 1);
         }
+
+            console.log(lastletter("upper"))
