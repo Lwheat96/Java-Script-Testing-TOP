@@ -22,3 +22,37 @@
         }
 
             console.log(lastletter("upper"))
+
+// Start of TOP - Understanding Errors //
+
+        // const a = "Hello";
+       // const b = "World";
+
+        console.log(c);
+
+// 2nd 
+
+        const a = 5;
+        const b = 10;
+
+        function add() {
+            return c;
+        }
+
+        function print() {
+            add();
+        }
+
+        print();
+
+// 3rd
+
+ //       function helloWorld() {
+ //           console.log "Hello World";
+ //       }
+
+// 4th
+
+        const str1 = "Hello";
+        const str2 = "World!";
+        const message = str1.push(str2);
